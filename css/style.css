@@ -1,0 +1,72 @@
+/* ===================================================================
+CSS information
+ file name  :  style.css
+ style info :  SVGエディット画面の設定
+=================================================================== */
+body {
+  background: #27323d;
+  color: #fff;
+}
+
+/* svg画像表示エリア */
+#svg {
+  position: relative;
+  margin-top: 20px;
+  width:  480px;
+  height: 640px;
+  border: none;
+}
+
+/* 画像を中央に表示 */
+.img_view {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background: #1c262f;
+}
+#header .inner {
+  overflow: hidden;
+  padding: 8px 0px 10px 0;
+}
+#header .inner h1 {
+  float: left;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-size: 2rem;
+}
+#header .inner ul {
+  float: left;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 8px;
+  font-size: 0.8rem;
+  margin: 20px 0 10px 20px;
+}
+#header .inner ul li {
+  float: left;
+  margin-right: 20px;
+}
+#header .inner ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#content {
+  background: #252f39;
+  border-top: #ffffff 2px solid;
+}
+.inner {
+  width: 960px;
+  margin: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 2px solid #FFFFFF;
+}
+
