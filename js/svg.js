@@ -1,9 +1,8 @@
+
 var paper;
 var drawFlag = false;
 var oldX = 0;
 var oldY = 0;
-var can;
-
 
 $(document).ready(function(){
 
